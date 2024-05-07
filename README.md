@@ -12,3 +12,11 @@ To counteract this growing concern, Fair Grants has pioneered a solution: an ope
 Gitcoin has recently unveiled the 'allo' protocol, empowering anyone to initiate these grants on the blockchain. This development necessitates that new grant round operators are equipped with tools to transparently monitor and identify suspicious activities. Fair Grants rises to this challenge, offering a compelling solution.
 
 # Technical details
+
+The Fair Grants pipeline is built on a Python backend, leveraging the Flask framework. We use the Gitcoin API to fetch grant data and the thegraph API to fetch blockchain data. The data is stored in a PostgreSQL database. 
+
+Basicelly the pipeline is divided into 3 main components:
+
+1. Data Fetching: Fetches data from the Gitcoin API and thegraph API.
+2. Data Processing: Processes the fetched data to identify fraudulent activities.
+3. Data Visualization: Visualizes the processed data to help grant operators identify fraudulent activities.
