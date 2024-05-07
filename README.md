@@ -1,5 +1,7 @@
 # Fair Grants, an open data pipeline
 
+![DataPipeline](gif/DataPipeline.gif)
+
 Fair Grants is an open data pipeline to mitigate fraud in permissionless quadratic funding of public goods.
 
 Quadratic funding serves as a more egalitarian approach to financing public goods, championing the democratization of contributions. It amplifies the influence of smaller donors, thereby diminishing the stronghold of plutocracy. Moreover, it fosters a more efficient allocation of funds as donors are incentivized to contribute to multiple projects.
