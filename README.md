@@ -1,4 +1,5 @@
 # Fair Grants, an open data pipeline
+## This project was carried out during the Eth-Prague hackathon.
 
 ![DataPipeline](gif/DataPipeline.gif)
 
